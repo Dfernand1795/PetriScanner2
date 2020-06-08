@@ -1,7 +1,7 @@
-# PetriScanner
+# PetriScanner2
 Free open source high definition digital plate reader.
 
-# PetriScanner – QuickStart
+# PetriScanner2 – QuickStart
 
 Welcome to the QuickStart guide of PetriScanner.  In this tutorial you are going to learn how to set your experiments, acquire your images, and extract relevant information that characterize each microbial colony.
 Petri Scanner is a python module that focuses in facilitating the digital plate reading (DPR) process, aiming for an accurate growth measurement of a high density of microbial colonies, while simultaneously allowing to study the effect of different drugs in their growth.
