@@ -38,7 +38,7 @@ This library is comprised of 3 different sections:
 
 For deeper insight check: Installation and Scanner Setup.<br>
 *Do not forget to connect the scanner to your computer, and download required drivers for your scanner.*
-*For further information about installing the software or hardware please refer to PetriScanner-1_of_6-Setting_up_the_Scanner.docx*
+*For further information about installing the software or hardware please refer to ./Manuals/PetriScanner-1_of_6-Setting_up_the_Scanner.docx*
 
 ## Creating plate holders
 
@@ -52,19 +52,19 @@ Print the files in ./Petriscanner/Fisical_boards/Plate_Holder.<br>
 ## Preparing an experiment
 
 Plate the number of desired CFU in a Petri dish with 25 ml of Solid Agar by diluting the inoculum in a final volume of 500µl of a liquid version of your medium or any other resuspension liquid. Shake gently until the liquid covers the totality of the plate. Let dry for 2-5 minutes, or until there are no visible puddles. Once it's finished, clean the bottom of the dish and place them in the scanner.
-<br>*For further information about experiment preparation refer to  PetriScanner-2_of_6-Agar_Plate_Preparation*
+<br>*For further information about experiment preparation refer to  ./Manuals/PetriScanner-2_of_6-Agar_Plate_Preparation*
 
 ## Scanning your board
 
 The first time you use the software you will need to digitalize your board. Place it on top of the flatbed scanner and make sure it fits tightly, any movements will lead to noisy measurements. Once it is located steadily on the scanner close the lead and open the python GUI, select the parameters that better fit your experimental set-up and click on Scan Board. After a couple of minutes, you will have a digitalized version of the plate holder. You should be able to save it on PetriScanner/boards/.  Once finish this process open ImageJ and go to Plugins > Macros > Detect_board. Select your recently scanned board and you are good to go. <br>
 
 *In the case that your board was incorrectly segmented due to low contrast, etc., you can mark the holes manually with the circle tool on ImageJ.*<br>
-*For further information about GUI parameters refer to PetriScanner-3_of_6-Preparing_1st_exp*<br>
+*For further information about GUI parameters refer to ./Manuals/PetriScanner-3_of_6-Preparing_1st_exp*<br>
 
 ## Monitoring growing cultures
 
 Once you have your colonies ready to grow, place the Petri dish on the corresponding space of the plate holder. After all petri dishes are placed on the board open the python GUI and fill all the necessary fields. When you are finished click on Start Scan. All images will be saved depending on the number of plates that you used. <br>
-<br>*For further information about GUI parameters refer to PetriScanner-4_of_6-Pythons_GUI*
+<br>*For further information about GUI parameters refer to ./Manuals/PetriScanner-4_of_6-Pythons_GUI*
 
 ## Data Analysis
 Finally, once your scans are completed you click on the Extract_Data.py found on PetriScanner’s  root. Or you can run the following command directly from python: 
@@ -86,7 +86,7 @@ Exp.TimeIndependent(save = pth_in+'TimeIndependent.csv')
 ```
 This will generate 2 output files reporting several parameters for each colony and time frame. Files are split between time dependent and independent attributes. Area, color and radius and their magnitude of change are examples of time dependent attributes, while appearance time, maximum size and maximum growth rate are examples of time independent ones.  Relationship between tables can be found by the colony Id, which remains constant across tables. 
 <br>
-*For further information refer to PetriScanner-5_of_6-Analyzing_images*<br>
-*All other problems, please refer to PetriScanner-7_of_6-Troubleshooting*
+*For further information refer to ./Manuals/PetriScanner-5_of_6-Analyzing_images*<br>
+*All other problems, please refer to ./Manuals/PetriScanner-7_of_6-Troubleshooting*
 
 
