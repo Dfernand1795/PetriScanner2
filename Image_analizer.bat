@@ -1,2 +1,2 @@
-python ./pys/.Image_Analizer.py
+python ./pys/Image_Analizer.py
 pause
