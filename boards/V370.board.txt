@@ -1,0 +1,9 @@
+C:\Users\fdiego\Dropbox\PetriScanner\Boards\Board_V370.csv
+DPI of board: 800
+X----Y
+400    170
+400    3390
+420    6600
+3960    180
+3960    3390
+3975    6600

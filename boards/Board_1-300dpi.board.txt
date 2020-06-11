@@ -1,0 +1,9 @@
+C:\Users\deg17\Dropbox\PetriScanner\Boards\Board_1-300dpi.txt.csv
+DPI of board: 300
+X----Y
+1490    5
+148    55
+1496    1255
+151    1258
+1501    2459
+157    2462

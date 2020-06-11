@@ -1,0 +1,9 @@
+C:\Users\fdiego\Dropbox\PetriScanner\Boards\Board_V660.csv
+DPI of board: 800
+X----Y
+442    273
+442    3369
+442    6472
+3725    273
+3720    3374
+3716    6478

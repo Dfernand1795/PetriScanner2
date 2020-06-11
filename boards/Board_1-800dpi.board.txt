@@ -1,0 +1,9 @@
+C:\Users\deg17\Dropbox\PetriScanner\Boards\Board_1-800dpi.txt.csv
+DPI of board: 800
+X----Y
+3967    6
+386    144
+3985    3348
+395    3356
+3996    6560
+408    6567
