@@ -291,7 +291,7 @@ def ReadRawResults(pth, dish, No_Slices = 0,  Add_to_Id = 0, reverse = True, Fil
                 if os.path.isfile(pht_2_log): 
                     with open(pht_2_log, 'r') as log: 
                         for line in log:
-                            if 'Dataset comprised of: ' in line: 
+                            if 'dataset' in line.lower(): 
                                 N_images = int(re.findall(r'\d+', line.split(':')[1])[0])
 
         #Worst case scenario, we ask the user for the number of images in file. 
